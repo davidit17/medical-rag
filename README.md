@@ -45,6 +45,15 @@ A lightweight **Retrieval-Augmented Generation (RAG)** app for querying medical 
 
 ---
 
+### 🧾 6. Summarization, tags and more data to metadata
+
+
+
+<img src="img/fig5.JPG" width="600"/>
+
+---
+
+
 ## 📌 Notes
 
 - This is a **Work in Progress**.
@@ -59,7 +68,8 @@ A lightweight **Retrieval-Augmented Generation (RAG)** app for querying medical 
 - [ ] Add document upload from frontend
 - [ ] improve document splitting and embedding
 - [ ] improve similarity search 
-- [ ] add summarization, tags and more data to metadata
+- [X] ~~add database summary,tags and more data to metadata~~
+- [ ] add short summary to metadata
 - [ ] improve answer generation
 - [ ] Switch to more powerful LLM (optional)
 
