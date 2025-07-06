@@ -2,6 +2,13 @@
 
 A lightweight **Retrieval-Augmented Generation (RAG)** app for querying medical documents using local PDFs.
 
+files:
+- app.py - streamlit app
+- helper_functions.py - helper functions
+- requirments.txt
+- how_to.txt
+- generate_db.ipynb - parse pdf's, create db, llm summary and metadata, evaluation
+
 ---
 
 ## ⚙️ Tech Stack
