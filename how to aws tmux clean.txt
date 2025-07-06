@@ -1,0 +1,52 @@
+
+update python 3.8
+sudo amazon-linux-extras install python3.8 -y
+
+
+
+-----swap--------------
+
+sudo fallocate -l 2G /swapfile
+
+sudo chmod 600 /swapfile
+
+sudo mkswap /swapfile
+
+sudo swapon /swapfile
+
+free -h
+
+----\swap--------------
+
+
+---------virtual-env-------------
+
+
+python3 -m venv env
+
+source env/bin/activate 
+
+
+install dep on venv:
+
+pip install --no-cache-dir -r requirements.txt
+
+
+=================
+run app on virtual env :
+================
+
+tmux new -s Streamlit
+
+
+python -m streamlit run /home/ec2-user/app.py
+
+
+Detach from tmux and leave it running:
+
+Ctrl + b, then d
+
+Reattach to your session later:
+
+tmux attach -t Streamlit
+

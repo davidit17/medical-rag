@@ -1,0 +1,14 @@
+joblib
+scikit-learn
+urllib3==1.26.6
+PyMuPDF
+streamlit
+accelerate>=0.26.0
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+faiss-cpu
+torch
+torchvision
+torchaudio
+sentence-transformers
